@@ -1,25 +1,20 @@
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/UnitTests/JUnit5TestClass.java to edit this template
+ * Click nbfs://nbhost/SystemFileSystem/Templates/UnitTests/JUnit4TestClass.java to edit this template
  */
 package system.test.jenkins.docker.integration;
 
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.AfterAll;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 /**
  *
  * @author Daniel García Arcos
  */
-public class TemperatureConverterIT {
+public class TemperatureConverterTest {
     
-    public TemperatureConverterIT() {
+    public TemperatureConverterTest() {
     }
-
+    
     /**
      * Test of celsiusToFahrenheit method, of class TemperatureConverter.
      */

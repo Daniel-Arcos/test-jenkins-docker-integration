@@ -8,6 +8,7 @@ package system.test.jenkins.docker.integration;
  *
  * @author Daniel García Arcos
  */
+
 public class TemperatureConverter {
     
     public TemperatureConverter() {
