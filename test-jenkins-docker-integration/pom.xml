@@ -18,7 +18,6 @@
                 <version>2.22.0</version>
             </plugin>
         </plugins>
-        <finalName>test-jenkins-docker-integration</finalName>
     </build>
     <dependencies>
         <dependency>
