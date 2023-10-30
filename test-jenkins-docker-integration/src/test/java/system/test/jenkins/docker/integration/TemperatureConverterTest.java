@@ -21,9 +21,9 @@ public class TemperatureConverterTest {
     @org.junit.jupiter.api.Test
     public void testCelsiusToFahrenheit() {
         System.out.println("celsiusToFahrenheit");
-        double celsius = 0.0;
+        double celsius = 2.0;
         TemperatureConverter instance = new TemperatureConverter();
-        double expResult = 32.0;
+        double expResult = 35.6;
         double result = instance.celsiusToFahrenheit(celsius);
         assertEquals(expResult, result, "La prueba pasó");
     }
